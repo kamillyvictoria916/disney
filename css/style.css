@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'New Walt Disney Font', sans-serif;
+    font-size: 30px;                                          
+    font-weight: 400;
+    font-style: normal;
+}
+
+.link_container1 {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin: 20px;
+}
+
+.link_container1:hover {
+    background-color: rgba(255, 255, 255, 0.103);
+    transition: 200ms;
+}
+
+.img_texto {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 234px;
+}
+
+.slogan {
+    text-align: center;
+    color: white;
+}
+
+.btns {
+    transform: translateY(280px);
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+}
+
+.container1 {
+    height: 95vh;
+    background-image: url(../img/disneycapa.jpeg);
+    background-position: center center;
+    background-color: #0c0c3c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    height: 950px;
+    padding: 100px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    background-size: cover;
+}
+
+.img_principal {
+    width: 90%;
+    border-radius: 20px;
+    border: 5px solid black;
+}
+
+.img_principal2 {
+    width: 90%;
+    border-radius: 20px;
+    border: 5px solid black;
+}
+
+.img_texto_principal {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: start;
+    justify-items: center;
+}
+
+.texto_btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto {
+    width: 90%;
+    color: white;
+}
+
+.btn {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    width: 200px;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background-color: rgb(0, 130, 206);
+    transition: 300ms;
+}
+
+.container3 {
+    background-color: #0e0e0e;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    display: flex;
+    list-style: none;
+    padding-top: 40px;
+}
+
+.personagem {
+    display: flex;
+    margin: 10px;
+}
+
+.img_personagem {
+    width: 100px;
+    height: 250px;
+    border-radius: 15%;
+    margin: 10px;
+}
+
+.img_personagem:hover {
+    width: 120px;
+    height: 260px;
+    transition: 300ms;
+}
+
+.nome_personagem {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    letter-spacing: -12px;
+    color: white;
+}
+
